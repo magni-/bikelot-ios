@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		749263D5A4FB483E87EAD3F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E715B869C641828D4412D3 /* libPods.a */; };
 		DA7FFF1B17FFDB7F00F69D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF1A17FFDB7E00F69D1A /* Foundation.framework */; };
 		DA7FFF1D17FFDB7F00F69D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF1C17FFDB7F00F69D1A /* CoreGraphics.framework */; };
 		DA7FFF1F17FFDB7F00F69D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF1E17FFDB7F00F69D1A /* UIKit.framework */; };
@@ -14,7 +15,6 @@
 		DA7FFF2717FFDB7F00F69D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF2617FFDB7F00F69D1A /* main.m */; };
 		DA7FFF2B17FFDB7F00F69D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF2A17FFDB7F00F69D1A /* AppDelegate.m */; };
 		DA7FFF2E17FFDB7F00F69D1A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF2C17FFDB7F00F69D1A /* Main_iPhone.storyboard */; };
-		DA7FFF3117FFDB7F00F69D1A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF2F17FFDB7F00F69D1A /* Main_iPad.storyboard */; };
 		DA7FFF3417FFDB7F00F69D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF3317FFDB7F00F69D1A /* ViewController.m */; };
 		DA7FFF3617FFDB7F00F69D1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF3517FFDB7F00F69D1A /* Images.xcassets */; };
 		DA7FFF3D17FFDB7F00F69D1A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF3C17FFDB7F00F69D1A /* XCTest.framework */; };
@@ -22,6 +22,21 @@
 		DA7FFF3F17FFDB7F00F69D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF1E17FFDB7F00F69D1A /* UIKit.framework */; };
 		DA7FFF4717FFDB7F00F69D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF4517FFDB7F00F69D1A /* InfoPlist.strings */; };
 		DA7FFF4917FFDB7F00F69D1A /* bikelotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF4817FFDB7F00F69D1A /* bikelotTests.m */; };
+		DA7FFF5317FFDDB600F69D1A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF5217FFDDB600F69D1A /* MapKit.framework */; };
+		DA7FFF5517FFE56900F69D1A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7FFF5417FFE56900F69D1A /* CoreLocation.framework */; };
+		DA7FFF571800879900F69D1A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF561800879900F69D1A /* Podfile */; };
+		DA7FFF5E1800F53100F69D1A /* BLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */; };
+		DA7FFF5F1800F53100F69D1A /* BLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */; };
+		DA7FFF621800FFA000F69D1A /* BLAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */; };
+		DA7FFF631800FFA000F69D1A /* BLAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */; };
+		DA7FFF67180100B400F69D1A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF66180100B400F69D1A /* 0.png */; };
+		DA7FFF68180100B400F69D1A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF66180100B400F69D1A /* 0.png */; };
+		DA7FFF6C18010D1C00F69D1A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6918010D1C00F69D1A /* 1.png */; };
+		DA7FFF6D18010D1C00F69D1A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6918010D1C00F69D1A /* 1.png */; };
+		DA7FFF6E18010D1C00F69D1A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6A18010D1C00F69D1A /* 2.png */; };
+		DA7FFF6F18010D1C00F69D1A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6A18010D1C00F69D1A /* 2.png */; };
+		DA7FFF7018010D1C00F69D1A /* 3p.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6B18010D1C00F69D1A /* 3p.png */; };
+		DA7FFF7118010D1C00F69D1A /* 3p.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6B18010D1C00F69D1A /* 3p.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23E715B869C641828D4412D3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D778461CF2F04204A371FC3F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		DA7FFF1717FFDB7E00F69D1A /* bikelot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bikelot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7FFF1A17FFDB7E00F69D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA7FFF1C17FFDB7F00F69D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +63,6 @@
 		DA7FFF2917FFDB7F00F69D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA7FFF2A17FFDB7F00F69D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DA7FFF2D17FFDB7F00F69D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		DA7FFF3017FFDB7F00F69D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		DA7FFF3217FFDB7F00F69D1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DA7FFF3317FFDB7F00F69D1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA7FFF3517FFDB7F00F69D1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +71,17 @@
 		DA7FFF4417FFDB7F00F69D1A /* bikelotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bikelotTests-Info.plist"; sourceTree = "<group>"; };
 		DA7FFF4617FFDB7F00F69D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA7FFF4817FFDB7F00F69D1A /* bikelotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bikelotTests.m; sourceTree = "<group>"; };
+		DA7FFF5217FFDDB600F69D1A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DA7FFF5417FFE56900F69D1A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DA7FFF561800879900F69D1A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DA7FFF5C1800F53100F69D1A /* BLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnnotation.h; sourceTree = "<group>"; };
+		DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnnotation.m; sourceTree = "<group>"; };
+		DA7FFF601800FFA000F69D1A /* BLAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnnotationView.h; sourceTree = "<group>"; };
+		DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnnotationView.m; sourceTree = "<group>"; };
+		DA7FFF66180100B400F69D1A /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../../Desktop/0.png; sourceTree = "<group>"; };
+		DA7FFF6918010D1C00F69D1A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../Desktop/1.png; sourceTree = "<group>"; };
+		DA7FFF6A18010D1C00F69D1A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../Desktop/2.png; sourceTree = "<group>"; };
+		DA7FFF6B18010D1C00F69D1A /* 3p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3p.png; path = ../../../../Desktop/3p.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +89,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7FFF5517FFE56900F69D1A /* CoreLocation.framework in Frameworks */,
 				DA7FFF1D17FFDB7F00F69D1A /* CoreGraphics.framework in Frameworks */,
 				DA7FFF1F17FFDB7F00F69D1A /* UIKit.framework in Frameworks */,
+				DA7FFF5317FFDDB600F69D1A /* MapKit.framework in Frameworks */,
 				DA7FFF1B17FFDB7F00F69D1A /* Foundation.framework in Frameworks */,
+				749263D5A4FB483E87EAD3F9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,10 +114,13 @@
 		DA7FFF0E17FFDB7E00F69D1A = {
 			isa = PBXGroup;
 			children = (
+				DA7FFF65180100A600F69D1A /* Resources */,
+				DA7FFF561800879900F69D1A /* Podfile */,
 				DA7FFF2017FFDB7F00F69D1A /* bikelot */,
 				DA7FFF4217FFDB7F00F69D1A /* bikelotTests */,
 				DA7FFF1917FFDB7E00F69D1A /* Frameworks */,
 				DA7FFF1817FFDB7E00F69D1A /* Products */,
+				D778461CF2F04204A371FC3F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +136,13 @@
 		DA7FFF1917FFDB7E00F69D1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA7FFF5417FFE56900F69D1A /* CoreLocation.framework */,
+				DA7FFF5217FFDDB600F69D1A /* MapKit.framework */,
 				DA7FFF1A17FFDB7E00F69D1A /* Foundation.framework */,
 				DA7FFF1C17FFDB7F00F69D1A /* CoreGraphics.framework */,
 				DA7FFF1E17FFDB7F00F69D1A /* UIKit.framework */,
 				DA7FFF3C17FFDB7F00F69D1A /* XCTest.framework */,
+				23E715B869C641828D4412D3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,11 +153,14 @@
 				DA7FFF2917FFDB7F00F69D1A /* AppDelegate.h */,
 				DA7FFF2A17FFDB7F00F69D1A /* AppDelegate.m */,
 				DA7FFF2C17FFDB7F00F69D1A /* Main_iPhone.storyboard */,
-				DA7FFF2F17FFDB7F00F69D1A /* Main_iPad.storyboard */,
 				DA7FFF3217FFDB7F00F69D1A /* ViewController.h */,
 				DA7FFF3317FFDB7F00F69D1A /* ViewController.m */,
 				DA7FFF3517FFDB7F00F69D1A /* Images.xcassets */,
 				DA7FFF2117FFDB7F00F69D1A /* Supporting Files */,
+				DA7FFF5C1800F53100F69D1A /* BLAnnotation.h */,
+				DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */,
+				DA7FFF601800FFA000F69D1A /* BLAnnotationView.h */,
+				DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */,
 			);
 			path = bikelot;
 			sourceTree = "<group>";
@@ -155,6 +194,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DA7FFF65180100A600F69D1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA7FFF6918010D1C00F69D1A /* 1.png */,
+				DA7FFF6A18010D1C00F69D1A /* 2.png */,
+				DA7FFF6B18010D1C00F69D1A /* 3p.png */,
+				DA7FFF66180100B400F69D1A /* 0.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA7FFF4C17FFDB7F00F69D1A /* Build configuration list for PBXNativeTarget "bikelot" */;
 			buildPhases = (
+				A10F10699E664BA0A64E057E /* Check Pods Manifest.lock */,
 				DA7FFF1317FFDB7E00F69D1A /* Sources */,
 				DA7FFF1417FFDB7E00F69D1A /* Frameworks */,
 				DA7FFF1517FFDB7E00F69D1A /* Resources */,
+				0FF03600DB734AB497E7EA82 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +254,16 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = hack4good;
 				TargetAttributes = {
+					DA7FFF1617FFDB7E00F69D1A = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					DA7FFF3A17FFDB7F00F69D1A = {
 						TestTargetID = DA7FFF1617FFDB7E00F69D1A;
 					};
@@ -231,9 +293,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7FFF3117FFDB7F00F69D1A /* Main_iPad.storyboard in Resources */,
 				DA7FFF3617FFDB7F00F69D1A /* Images.xcassets in Resources */,
+				DA7FFF67180100B400F69D1A /* 0.png in Resources */,
+				DA7FFF6E18010D1C00F69D1A /* 2.png in Resources */,
 				DA7FFF2E17FFDB7F00F69D1A /* Main_iPhone.storyboard in Resources */,
+				DA7FFF7018010D1C00F69D1A /* 3p.png in Resources */,
+				DA7FFF6C18010D1C00F69D1A /* 1.png in Resources */,
+				DA7FFF571800879900F69D1A /* Podfile in Resources */,
 				DA7FFF2517FFDB7F00F69D1A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,19 +308,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7FFF7118010D1C00F69D1A /* 3p.png in Resources */,
+				DA7FFF6D18010D1C00F69D1A /* 1.png in Resources */,
+				DA7FFF68180100B400F69D1A /* 0.png in Resources */,
+				DA7FFF6F18010D1C00F69D1A /* 2.png in Resources */,
 				DA7FFF4717FFDB7F00F69D1A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FF03600DB734AB497E7EA82 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A10F10699E664BA0A64E057E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA7FFF1317FFDB7E00F69D1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7FFF621800FFA000F69D1A /* BLAnnotationView.m in Sources */,
 				DA7FFF3417FFDB7F00F69D1A /* ViewController.m in Sources */,
 				DA7FFF2B17FFDB7F00F69D1A /* AppDelegate.m in Sources */,
+				DA7FFF5E1800F53100F69D1A /* BLAnnotation.m in Sources */,
 				DA7FFF2717FFDB7F00F69D1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +368,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7FFF5F1800F53100F69D1A /* BLAnnotation.m in Sources */,
+				DA7FFF631800FFA000F69D1A /* BLAnnotationView.m in Sources */,
 				DA7FFF4917FFDB7F00F69D1A /* bikelotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +399,6 @@
 				DA7FFF2D17FFDB7F00F69D1A /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		DA7FFF2F17FFDB7F00F69D1A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DA7FFF3017FFDB7F00F69D1A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		DA7FFF4517FFDB7F00F69D1A /* InfoPlist.strings */ = {
@@ -389,26 +488,32 @@
 		};
 		DA7FFF4D17FFDB7F00F69D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D778461CF2F04204A371FC3F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bikelot/bikelot-Prefix.pch";
 				INFOPLIST_FILE = "bikelot/bikelot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		DA7FFF4E17FFDB7F00F69D1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D778461CF2F04204A371FC3F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bikelot/bikelot-Prefix.pch";
 				INFOPLIST_FILE = "bikelot/bikelot-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +579,7 @@
 				DA7FFF4E17FFDB7F00F69D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA7FFF4F17FFDB7F00F69D1A /* Build configuration list for PBXNativeTarget "bikelotTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +588,7 @@
 				DA7FFF5117FFDB7F00F69D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

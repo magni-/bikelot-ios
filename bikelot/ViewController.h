@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <MapKit/MapKit.h>
+#import <AFHTTPRequestOperationManager.h>
+#import "BLAnnotation.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <CLLocationManagerDelegate,MKMapViewDelegate>
+
+@property (nonatomic, strong) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UILabel *dataLabel;
+@property (weak, nonatomic) IBOutlet UIStepper *valueStepper;
+- (IBAction)valueChanged:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *sendDataButton;
+- (IBAction)sendData:(id)sender;
 
 @end
