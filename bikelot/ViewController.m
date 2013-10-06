@@ -51,10 +51,9 @@
         NSLog(@"JSON: %@", responseObject);
         for (id loc in responseObject)
         {
-//            BLAnnotation *annotationPoint = [[BLAnnotation alloc] init];
-            MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
-            annotationPoint.coordinate = CLLocationCoordinate2DMake([[loc objectForKey:@"lat"] floatValue], [[loc objectForKey:@"long"] floatValue]);
-            //annotationPoint.spots = 0;
+            BLAnnotation *annotationPoint = [[BLAnnotation alloc] initWithLocation:CLLocationCoordinate2DMake([[loc objectForKey:@"latitude"] floatValue], [[loc objectForKey:@"longitude"] floatValue])];
+            annotationPoint.spots = [[loc objectForKey:@"spots"] intValue];
+            [annotationPoint chooseImage];
             
             [_mapView addAnnotation:annotationPoint];
         }
@@ -63,20 +62,19 @@
     }];
 }
 
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id<MKAnnotation>)annotation
-{
-    if([annotation isKindOfClass:[MKUserLocation class]])
-        return nil;
-    
-    NSString *annotationIdentifier = @"BLAnnotation";
-    MKAnnotationView* annotationView = [mapView dequeueReusableAnnotationViewWithIdentifier: annotationIdentifier];
-    if(!annotationView)
+-(MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id)annotation{
+    if ([annotation isKindOfClass:[BLAnnotation class]])
     {
-        annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:annotationIdentifier];
+        NSString *annotationIdentifier=[NSString stringWithFormat:@"annotationIdentifier%d", [(BLAnnotation*) annotation spots]];
+        MKAnnotationView *annotationView = [mapView dequeueReusableAnnotationViewWithIdentifier:annotationIdentifier];
+        if (!annotationView)
+        {
+            annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:annotationIdentifier];
+            annotationView.image = [annotation chooseImage];
+        }
+        return annotationView;
     }
-    annotationView.image = [UIImage imageNamed:@"0.png"];
-    
-    return annotationView;
+    return nil;
 }
 
 - (void)viewDidLoad

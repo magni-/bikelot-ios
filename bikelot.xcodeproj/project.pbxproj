@@ -27,8 +27,6 @@
 		DA7FFF571800879900F69D1A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF561800879900F69D1A /* Podfile */; };
 		DA7FFF5E1800F53100F69D1A /* BLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */; };
 		DA7FFF5F1800F53100F69D1A /* BLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */; };
-		DA7FFF621800FFA000F69D1A /* BLAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */; };
-		DA7FFF631800FFA000F69D1A /* BLAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */; };
 		DA7FFF67180100B400F69D1A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF66180100B400F69D1A /* 0.png */; };
 		DA7FFF68180100B400F69D1A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF66180100B400F69D1A /* 0.png */; };
 		DA7FFF6C18010D1C00F69D1A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = DA7FFF6918010D1C00F69D1A /* 1.png */; };
@@ -76,8 +74,6 @@
 		DA7FFF561800879900F69D1A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		DA7FFF5C1800F53100F69D1A /* BLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnnotation.h; sourceTree = "<group>"; };
 		DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnnotation.m; sourceTree = "<group>"; };
-		DA7FFF601800FFA000F69D1A /* BLAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnnotationView.h; sourceTree = "<group>"; };
-		DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnnotationView.m; sourceTree = "<group>"; };
 		DA7FFF66180100B400F69D1A /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../../Desktop/0.png; sourceTree = "<group>"; };
 		DA7FFF6918010D1C00F69D1A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../Desktop/1.png; sourceTree = "<group>"; };
 		DA7FFF6A18010D1C00F69D1A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../Desktop/2.png; sourceTree = "<group>"; };
@@ -159,8 +155,6 @@
 				DA7FFF2117FFDB7F00F69D1A /* Supporting Files */,
 				DA7FFF5C1800F53100F69D1A /* BLAnnotation.h */,
 				DA7FFF5D1800F53100F69D1A /* BLAnnotation.m */,
-				DA7FFF601800FFA000F69D1A /* BLAnnotationView.h */,
-				DA7FFF611800FFA000F69D1A /* BLAnnotationView.m */,
 			);
 			path = bikelot;
 			sourceTree = "<group>";
@@ -356,7 +350,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7FFF621800FFA000F69D1A /* BLAnnotationView.m in Sources */,
 				DA7FFF3417FFDB7F00F69D1A /* ViewController.m in Sources */,
 				DA7FFF2B17FFDB7F00F69D1A /* AppDelegate.m in Sources */,
 				DA7FFF5E1800F53100F69D1A /* BLAnnotation.m in Sources */,
@@ -369,7 +362,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7FFF5F1800F53100F69D1A /* BLAnnotation.m in Sources */,
-				DA7FFF631800FFA000F69D1A /* BLAnnotationView.m in Sources */,
 				DA7FFF4917FFDB7F00F69D1A /* bikelotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
